@@ -1,0 +1,26 @@
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: ;
+  padding: 5;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+button {
+  
+  font-family: 'Bebas Neue', cursive;
+  background-color: rgba(255,125,125,.7);
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  box-shadow: 3px 3px 7px black;
+  font-size: 50px;
+  display: block;
+  margin: 10px auto;
+  min-height: 65px;
+  width: 70%;
+}
