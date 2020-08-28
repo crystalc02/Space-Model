@@ -1,0 +1,48 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  /* margin: 2em; */
+}
+
+h1, h2, h3, h4{
+  font-style: italic;
+  color: #373fff;
+  text-align: center;
+}
+
+.screen {
+  background-image: url("https://cdn.glitch.com/ab0922bf-007b-45e1-b108-57b39e818c8e%2Fspace%20background.jpg?v=1595977756296");
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 15px auto;
+  padding: 15px;
+  max-width: 700px;
+  width: calc(100vw - 30px);
+  height: calc(100vh - 30px);
+}
+
+button {
+  background-color: rgba(255,255,255,.7);
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  box-shadow: 3px 3px 7px black;
+  font-size: 24px;
+  display: block;
+  margin: 10px auto;
+  min-height: 65px;
+  width: 70%;
+}
+
+.highlight {
+  background-color: green;
+  color: white;
+}
+
+canvas {
+  min-width: 100vw;
+  min-height: 100vh; 
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
