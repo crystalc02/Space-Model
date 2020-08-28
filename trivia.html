@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/trivia.css"> 
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/trivia.js" defer></script> 
+     
+    <!-- import p5 things -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+    <script src="https://cdn.JsDelivr.net/gh/bmoren/p5.collide2D/p5.collide2d.min.js"></script>
+    <script src="https://unpkg.com/p5.collide2d"></script> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>  
+  <body>
+
+     <!-------------- WELCOME SCREEN --------------->
+  <div class= "screen" id= "welcome-screen">
+
+    <h1>🚀 Space Exploration Trivia 🚀</h1>
+    <h2>How much do you know about the Solar System?</h2>
+    <button class="start-btn">Start to find out!</button>
+    <a href="index.html"><button class="home-btn">Back to the Solar System!</button></a>
+  </div>
+
+  <!-------------- QUESTION SCREEN --------------->
+  <div class="screen" id="question-screen">
+    <h3 id="category">Category Name</h3>
+    <h1 id="question">Question goes here?</h1>
+    <div id="answer-set">
+      <button class="answer-btn" id="correctAnswer">Correct Answer</button>
+      <button class="answer-btn" id="incorrectAnswer1">Wrong Answer</button>
+      <button class="answer-btn" id="incorrectAnswer2">Wrong Answer</button>
+      <button class="answer-btn" id="incorrectAnswer3">Wrong Answer</button>
+    </div>
+    <h1 id="feedback">Feedback will go here.</h1>
+  </div>
+
+  <!-------------- THANK YOU SCREEN --------------->
+  <div class="screen" id="thankyou-screen">
+    <h2 id="game-results">Looks like you did pretty well.</h2> 
+    <h1>Thanks for playing!</h1>
+    <button class="start-btn">Restart</button>
+    <a href="index.html"><button class="home-btn">Back to the Solar System!</button></a>
+  </div>
+  
+
+  <!-- JS Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-trivia/src/trivia.js"></script> <!-- iDEW trivia -->
+  </body>
+</html>
